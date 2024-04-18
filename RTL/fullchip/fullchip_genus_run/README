@@ -1,0 +1,14 @@
+After the synthesis some manual fixes on SYN/FULLCHIP.pg.syn.vg is needed
+1. After line 51, add
+	wire UNCONNECTED25, UNCONNECTED26, UNCONNECTED27, UNCONNECTED28;
+2. At line 267 and 268, PRDW12SDGZ_V_G stdcell exists for SENSE_HI_INST and SENSE_LO_INST. REN and OEN pins for these stdcells need to be unconnected. Change to
+	RDW12SDGZ_V_G TEMP_SENSE_HI_INST(.REN (UNCONNECTED25), .I (TEMP_SENSE_HI),
+       .OEN (UNCONNECTED26), .PAD (TEMP_SENSE_HI_IO), .C (UNCONNECTED1), .POC
+       (POC1), .VDD (VDD0P9_TOP), .VDDPST (VDD1P8), .VSSPST (VSS1P8),
+       .VSS (VSS0P9));
+  	PRDW12SDGZ_V_G TEMP_SENSE_LO_INST(.REN (UNCONNECTED27), .I (TEMP_SENSE_LO),
+       .OEN (UNCONNECTED28), .PAD (TEMP_SENSE_LO_IO), .C (UNCONNECTED4), .POC
+       (POC1), .VDD (VDD0P9_TOP), .VDDPST (VDD1P8), .VSSPST (VSS1P8),
+       .VSS (VSS0P9));
+3. Because the original verilog file is parameterized we need to fix the module name. At line 2898, change module name to rare_riscv_test_w_mem (Simply remove after _COREV_PULP0...). Same for line 2952.
+4. For same modules, pin VDD_TOP (VDD) needs to be changed as VDD (VDD)

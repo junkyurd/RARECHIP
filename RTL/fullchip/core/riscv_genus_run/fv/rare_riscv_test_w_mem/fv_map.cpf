@@ -1,0 +1,127 @@
+########################################################################################
+#                                                                                      #
+# Created by Genus(TM) Synthesis Solution 19.15-s090_1 on Mon Nov 27 22:12:34 CST 2023 #
+#                                                                                      #
+########################################################################################
+
+set_cpf_version 2.0
+
+set_hierarchy_separator "/"
+
+define_level_shifter_cell \
+	 -cells { LVLLHD* } \
+	 -input_voltage_range { 0.9:1 } \
+	 -output_voltage_range { 0.9:1 } \
+	 -input_power_pin VDDL \
+	 -output_power_pin VDD \
+	 -ground VSS \
+	 -direction bidir \
+	 -valid_location to
+
+define_level_shifter_cell \
+	 -cells { LVLLHD* } \
+	 -input_voltage_range { 0.9:1 } \
+	 -output_voltage_range { 0.9:1 } \
+	 -input_power_pin VDDL \
+	 -output_power_pin VDD \
+	 -ground VSS \
+	 -direction bidir \
+	 -valid_location to
+
+set_design rare_riscv_test_w_mem
+
+create_nominal_condition -name nom \
+	 -voltage { 0.9 } \
+	 -ground_voltage { 0 }
+
+create_nominal_condition -name high \
+	 -voltage { 1 } \
+	 -ground_voltage { 0 }
+
+create_power_domain -name PD_TOP \
+	 -default
+
+create_power_domain -name PD_DUT \
+	 -instances { rare_riscv_test_inst }
+
+create_power_mode -name PM1 \
+	 -default \
+	 -domain_conditions { PD_TOP@nom PD_DUT@nom }
+
+create_power_mode -name PM2 \
+	 -domain_conditions { PD_TOP@high PD_DUT@nom }
+
+create_power_mode -name PM3 \
+	 -domain_conditions { PD_TOP@nom PD_DUT@high }
+
+create_level_shifter_rule -name lsr1 \
+	 -from { PD_TOP } \
+	 -to { PD_DUT }
+
+create_level_shifter_rule -name lsr2 \
+	 -from { PD_DUT } \
+	 -to { PD_TOP }
+
+create_level_shifter_rule -name lsr3 \
+	 -force \
+	 -pins { rare_riscv_test_inst/cv32e40p_top_inst/rst_ni } \
+	 -force
+
+update_level_shifter_rules -names { lsr1 } \
+	 -location to
+
+update_level_shifter_rules -names { lsr2 } \
+	 -location to
+
+update_level_shifter_rules -names { lsr3 } \
+	 -location parent
+
+set_power_target \
+	 -leakage 30 \
+	 -dynamic 250
+
+create_ground_nets \
+	 -nets { VSS } \
+	 -voltage 0
+
+create_power_nets \
+	 -nets { VDD } \
+	 -voltage 0.90:1
+
+create_power_nets \
+	 -nets { VDD_DUT } \
+	 -voltage 0.9
+
+create_global_connection \
+	 -net VSS \
+	 -pins { VSS }
+
+create_global_connection \
+	 -domain PD_TOP \
+	 -net VDD \
+	 -pins { VDD }
+
+create_global_connection \
+	 -domain PD_TOP \
+	 -net VDD_DUT \
+	 -pins { VDDL }
+
+create_global_connection \
+	 -domain PD_DUT \
+	 -net VDD_DUT \
+	 -pins { VDD }
+
+create_global_connection \
+	 -domain PD_DUT \
+	 -net VDD \
+	 -pins { VDDL }
+
+update_power_domain -name PD_TOP \
+	 -primary_power_net VDD \
+	 -primary_ground_net VSS
+
+update_power_domain -name PD_DUT \
+	 -primary_power_net VDD_DUT \
+	 -primary_ground_net VSS
+
+end_design

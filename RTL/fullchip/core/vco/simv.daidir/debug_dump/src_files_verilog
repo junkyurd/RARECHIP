@@ -1,0 +1,8 @@
+/project/chriskim00/itahmida/TSMC28/ODOMETER/Genus/voltage_sensor_odometer_Genus/tcbn28hpcplusbwp30p140.v
+/project/chriskim01/chipfab/rare23/Genus/fullchip/core/vco/ROSC101_SEL_INV.v
+/project/chriskim01/chipfab/rare23/Genus/fullchip/core/vco/VCO_full.v
+/project/chriskim01/chipfab/rare23/Genus/fullchip/core/vco/buff_block_vco.v
+/project/chriskim01/chipfab/rare23/Genus/fullchip/core/vco/freq_div_12b.v
+/project/chriskim01/chipfab/rare23/Genus/fullchip/core/vco/freq_div_3b.v
+/project/chriskim01/chipfab/rare23/Genus/fullchip/core/vco/signal_control_vco.v
+/project/chriskim01/chipfab/rare23/Genus/fullchip/core/vco/testbench.v

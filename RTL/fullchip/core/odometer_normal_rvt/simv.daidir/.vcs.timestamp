@@ -1,0 +1,129 @@
+0 
+40
++itf+/apps/synopsys/vcs_2017.12/linux/lib/vcsdp.tab
++memcbk
++vcsd
++vpi
+-Mamsrun=
+-Masflags=--32
+-Mcc=gcc
+-Mcfl= -pipe -m32 -O -I/apps/synopsys/vcs_2017.12/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags= -m32 -m32 -rdynamic
+-Mobjects= /apps/synopsys/vcs_2017.12/linux/lib/libvirsim.so /apps/synopsys/vcs_2017.12/linux/lib/liberrorinf.so /apps/synopsys/vcs_2017.12/linux/lib/libsnpsmalloc.so /apps/synopsys/vcs_2017.12/linux/lib/libvfs.so
+-Mout=simv
+-Msaverestoreobj=/apps/synopsys/vcs_2017.12/linux/lib/vcs_save_restore_new.o
+-Msyslibs=/apps/synopsys/vcs_2017.12/linux/lib/ctype-stubs_32.a -ldl
+-Mupdate
+-Mvcsaceobjs=
+-Mxcflags= -pipe -m32 -I/apps/synopsys/vcs_2017.12/include
+-Xpiyushb1=0x80
+-debug_access+all+bc
+-debug_region+cell
+-gen_obj
+-picarchive
+/apps/synopsys/vcs_2017.12/linux/bin/vcs1
+/project/chriskim00/itahmida/TSMC28/ODOMETER/Genus/voltage_sensor_odometer_Genus/tcbn28hpcplusbwp30p140.v
+ROSC_ALL_RVT.v
+edge_detector.v
+odometer_full_rvt.v
+odometer_meas_detect.v
+odometer_top.v
+parallel_latch.v
+power_enable.v
+rosc_block_top_pwr_rvt_ref.v
+rosc_block_top_pwr_rvt_stress.v
+shift_sample_3b.v
+signal_ctrl.v
+testbench.v
+63
+sysc_uni_pwd=/project/chriskim01/chipfab/rare23/Genus/fullchip/core/odometer_normal_rvt
+_LMFILES_=/home/apps/common/modules/modulefiles/system:/home/apps/common/modules/modulefiles/local:/home/apps/common/modules/modulefiles/modules:/home/apps/common/modules/modulefiles/cadence/genus_19.1:/home/apps/common/modules/modulefiles/cadence/innovus_19.1:/home/apps/common/modules/modulefiles/cadence/ic_617:/home/apps/common/modules/modulefiles/calibre/2019.4_36.18:/home/apps/common/modules/modulefiles/synopsys/vcs_2017.12
+XMODIFIERS=@im=ibus
+XDG_SESSION_ID=21
+XDG_RUNTIME_DIR=/run/user/2627647
+XDG_MENU_PREFIX=gnome-
+XDG_CURRENT_DESKTOP=GNOME
+XAUTHORITY=/home/misc/chipfab/.xauthvITWdD
+VTE_VERSION=5204
+VNCDESKTOP=cryo.ece.umn.edu:3 (islam112)
+VMR_MODE_FLAG=32
+VENDOR=unknown
+VCS_MX_HOME_INTERNAL=1
+VCS_HOME=/apps/synopsys/vcs_2017.12
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH=linux
+VCS_AMD_PURE32=1
+UNAME=/bin/uname
+TOOL_HOME=/apps/synopsys/vcs_2017.12/linux
+SSH_TTY=/dev/pts/3
+SSH_CONNECTION=10.21.62.75 56461 128.101.168.80 22
+SSH_CLIENT=10.21.62.75 56461 22
+SSH_AUTH_SOCK=/run/user/2627647/keyring/ssh
+SSH_AGENT_PID=14769
+SNPS_VCS_CLANG_PATH=/fs/src/interfaces/LLVM_Project/QSCM/opt/llvm-3.9.1/linux64
+SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/14656,unix/unix:/tmp/.ICE-unix/14656
+SELINUX_USE_CURRENT_RANGE=
+SELINUX_ROLE_REQUESTED=
+SELINUX_LEVEL_REQUESTED=
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+REMOTEHOST=10.21.62.75
+QT_IM_MODULE=ibus
+OVA_UUM=0
+OSTYPE=linux
+MODULE_OS=Linux
+MODULE_ARCH=x86_64
+MODULESHOME=/home/apps/common/modules
+MODULEPATH=/home/apps/common/modules/modulefiles
+MGLS_LICENSE_FILE=1717@ece-mentor.oit.umn.edu
+MGC_HOME=/apps/common/calibre/2019.4/aoi_cal_2019.4_36.18
+LOADEDMODULES=system:local:modules:cadence/genus_19.1:cadence/innovus_19.1:cadence/ic_617:calibre/2019.4_36.18:synopsys/vcs_2017.12
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LESS=eMs
+LC_ALL=C
+KRB5CCNAME=FILE:/tmp/krb5cc_2627647_1Y4PM4
+IMSETTINGS_MODULE=none
+IMSETTINGS_INTEGRATE_DESKTOP=yes
+HOSTTYPE=x86_64-linux
+GROUP=chriskim
+GNOME_TERMINAL_SERVICE=:1.111
+GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/a85706a2_3cce_40e1_a9e4_6bb4bc402a7f
+GNOME_SHELL_SESSION_MODE=classic
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+DBUS_STARTER_BUS_TYPE=session
+DBUS_STARTER_ADDRESS=unix:abstract=/tmp/dbus-cV1o8SAYyb,guid=eacb5c858b74690b5841a9df6526fce0
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-cV1o8SAYyb,guid=eacb5c858b74690b5841a9df6526fce0
+COLORTERM=truecolor
+CDS_Netlisting_Mode=Analog
+CDS_LIC_FILE=5280@cadence.ece.umn.edu
+CDS_AUTO_64BIT=ALL
+CDSHOME=/apps/common/cadence/ic_616
+0
+14
+1697176701 /project/chriskim00/itahmida/TSMC28/ODOMETER/Genus/voltage_sensor_odometer_Genus/tcbn28hpcplusbwp30p140.v
+1698983965 testbench.v
+1696955643 signal_ctrl.v
+1696955545 shift_sample_3b.v
+1698983356 rosc_block_top_pwr_rvt_stress.v
+1698983301 rosc_block_top_pwr_rvt_ref.v
+1696955682 power_enable.v
+1697212777 parallel_latch.v
+1697518198 odometer_top.v
+1698594291 odometer_meas_detect.v
+1697564157 odometer_full_rvt.v
+1696955589 edge_detector.v
+1695364638 ROSC_ALL_RVT.v
+1516334765 /apps/synopsys/vcs_2017.12/linux/lib/vcsdp.tab
+5
+0 
+1516337752 /apps/synopsys/vcs_2017.12/linux/lib/libvirsim.so
+1516336481 /apps/synopsys/vcs_2017.12/linux/lib/liberrorinf.so
+1516336452 /apps/synopsys/vcs_2017.12/linux/lib/libsnpsmalloc.so
+1516337185 /apps/synopsys/vcs_2017.12/linux/lib/libvfs.so
+1698983986 simv.daidir

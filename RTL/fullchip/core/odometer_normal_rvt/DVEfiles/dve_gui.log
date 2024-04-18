@@ -1,0 +1,38 @@
+Chronologic VCS simulator copyright 1991-2017
+Contains Synopsys proprietary information.
+Compiler version N-2017.12-1; Runtime version N-2017.12-1;  Nov  2 22:52 2023
+VCD+ Writer N-2017.12-1 Copyright (c) 1991-2017 by Synopsys Inc.
+The file '/project/chriskim01/chipfab/rare23/Genus/fullchip/core/odometer_normal_rvt/inter.vpd' was opened successfully.
+$finish called from file "testbench.v", line 133.
+$finish at simulation time            151520000
+Simulation complete, time is 151520000 ps.
+Chronologic VCS simulator copyright 1991-2017
+Contains Synopsys proprietary information.
+Compiler version N-2017.12-1; Runtime version N-2017.12-1;  Nov  2 22:56 2023
+VCD+ Writer N-2017.12-1 Copyright (c) 1991-2017 by Synopsys Inc.
+The file '/project/chriskim01/chipfab/rare23/Genus/fullchip/core/odometer_normal_rvt/inter.vpd' was opened successfully.
+$finish called from file "testbench.v", line 133.
+$finish at simulation time            151520000
+Simulation complete, time is 151520000 ps.
+No design was updated from VPD file.
+No design was updated from VPD file.
+Chronologic VCS simulator copyright 1991-2017
+Contains Synopsys proprietary information.
+Compiler version N-2017.12-1; Runtime version N-2017.12-1;  Nov  2 23:00 2023
+VCD+ Writer N-2017.12-1 Copyright (c) 1991-2017 by Synopsys Inc.
+The file '/project/chriskim01/chipfab/rare23/Genus/fullchip/core/odometer_normal_rvt/inter.vpd' was opened successfully.
+$finish called from file "testbench.v", line 133.
+$finish at simulation time            151520000
+Simulation complete, time is 151520000 ps.
+Chronologic VCS simulator copyright 1991-2017
+Contains Synopsys proprietary information.
+Compiler version N-2017.12-1; Runtime version N-2017.12-1;  Nov  2 23:09 2023
+VCD+ Writer N-2017.12-1 Copyright (c) 1991-2017 by Synopsys Inc.
+The file '/project/chriskim01/chipfab/rare23/Genus/fullchip/core/odometer_normal_rvt/inter.vpd' was opened successfully.
+$finish called from file "testbench.v", line 133.
+$finish at simulation time            151520000
+Simulation complete, time is 151520000 ps.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 151520000 ps
+CPU Time:      0.710 seconds;       Data structure size:   1.5Mb
+Tue Nov  7 22:34:04 2023

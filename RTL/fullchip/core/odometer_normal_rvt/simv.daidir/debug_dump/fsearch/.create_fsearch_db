@@ -1,0 +1,9 @@
+#!/bin/sh -h 
+PYTHONHOME=/apps/synopsys/vcs_2017.12/etc/search/pyh
+export PYTHONHOME
+PYTHONPATH=/apps/synopsys/vcs_2017.12/linux/lib/pylib27
+export PYTHONPATH
+LD_LIBRARY_PATH=/apps/synopsys/vcs_2017.12/linux/lib:/apps/synopsys/vcs_2017.12/linux/lib/pylib27
+export LD_LIBRARY_PATH
+/apps/synopsys/vcs_2017.12/linux/bin/vcsfind_create_index.exe  -z  "/project/chriskim01/chipfab/rare23/Genus/fullchip/core/odometer_normal_rvt/simv.daidir/debug_dump/fsearch/./idents_tapi.xml.gz" "/project/chriskim01/chipfab/rare23/Genus/fullchip/core/odometer_normal_rvt/simv.daidir/debug_dump/fsearch/./idents_fYIJnE.xml.gz" -o "/project/chriskim01/chipfab/rare23/Genus/fullchip/core/odometer_normal_rvt/simv.daidir/debug_dump/fsearch/fsearch.db_tmp"
+\mv "/project/chriskim01/chipfab/rare23/Genus/fullchip/core/odometer_normal_rvt/simv.daidir/debug_dump/fsearch/fsearch.db_tmp" "/project/chriskim01/chipfab/rare23/Genus/fullchip/core/odometer_normal_rvt/simv.daidir/debug_dump/fsearch/fsearch.db"

@@ -1,0 +1,89 @@
+`timescale 1ns/1ps
+
+module odometer_full_stacked_rvt(
+	AC_STRESS_CLK, 
+	RESETB, 
+	LOAD, 
+	SEL_INV99, 
+	SEL_INV101, 
+	SEL_INV97,
+	START, 
+	AC_DC,	
+	MEAS_TRIG, 
+	//AC_STRESS_CLK_OUT,
+	BF_COUNT,
+	VDD,VSS);
+
+	input AC_STRESS_CLK; 
+	input RESETB; 
+	input LOAD; 
+	input MEAS_TRIG;
+	input VDD,VSS;
+	input SEL_INV99, SEL_INV101, SEL_INV97;
+	input START;
+	input AC_DC;	
+
+	//output AC_STRESS_CLK_OUT;
+	output [11:0] BF_COUNT ;
+	
+	wire MEAS_STRESS, EN_ROSC, EN_POWER_ROSC_STRESS;
+	wire ROSC_STRESS_OUT, ROSC_REF_OUT;
+	wire SEL_INV99_LATCHED, SEL_INV101_LATCHED, SEL_INV97_LATCHED;
+	wire START_LATCHED;
+	wire AC_DC_LATCHED;	
+	
+
+        odometer_top_stacked odometer_top(
+
+        .ROSC_STRESS(ROSC_STRESS_OUT), 
+        .ROSC_REF(ROSC_REF_OUT),
+        .AC_STRESS_CLK(AC_STRESS_CLK),
+        .RESETB(RESETB), 
+        .LOAD(LOAD), 
+        .MEAS_TRIG(MEAS_TRIG),               
+        .SEL_INV99(SEL_INV99), 
+        .SEL_INV101(SEL_INV101), 
+        .SEL_INV97(SEL_INV97), 
+        .START(START), 
+        .AC_DC(AC_DC),
+        .SEL_INV99_LATCHED(SEL_INV99_LATCHED), 
+        .SEL_INV101_LATCHED(SEL_INV101_LATCHED), 
+        .SEL_INV97_LATCHED(SEL_INV97_LATCHED), 
+        .START_LATCHED(START_LATCHED), 
+        .AC_DC_LATCHED(AC_DC_LATCHED),        
+        .MEAS_STRESS(MEAS_STRESS), 
+        .EN_ROSC(EN_ROSC), 
+        .EN_POWER_ROSC_STRESS(EN_POWER_ROSC_STRESS),
+        //.AC_STRESS_CLK_OUT(AC_STRESS_CLK_OUT),
+        .BF_COUNT(BF_COUNT),        
+        .VDD(VDD),.VSS(VSS));
+        
+	rosc_block_top_pwr_rvt_stress_stacked rosc_stress(
+	.SEL_INV99(SEL_INV99_LATCHED), 
+	.SEL_INV101(SEL_INV101_LATCHED), 
+	.SEL_INV97(SEL_INV97_LATCHED), 
+	.START(START_LATCHED), 
+	.AC_DC(AC_DC_LATCHED), 
+	.AC_STRESS_CLK(AC_STRESS_CLK), 
+	.EN_POWER_ROSC(EN_POWER_ROSC_STRESS), 
+	.EN_ROSC(EN_ROSC), 
+	.MEAS_STRESS(MEAS_STRESS), 
+	.OUT(ROSC_STRESS_OUT),
+	.VDD(VDD),
+	.VSS(VSS));
+	
+	rosc_block_top_pwr_rvt_ref_stacked rosc_ref(
+	.SEL_INV99(SEL_INV99_LATCHED), 
+	.SEL_INV101(SEL_INV101_LATCHED), 
+	.SEL_INV97(SEL_INV97_LATCHED), 
+	.START(MEAS_STRESS), 
+	.AC_DC(AC_DC_LATCHED), 
+	.AC_STRESS_CLK(AC_STRESS_CLK), 
+	.EN_POWER_ROSC(MEAS_STRESS), 
+	.EN_ROSC(EN_ROSC), 
+	.MEAS_STRESS(MEAS_STRESS), 
+	.OUT(ROSC_REF_OUT),
+	.VDD(VDD),
+	.VSS(VSS));
+
+endmodule

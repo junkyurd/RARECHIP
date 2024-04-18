@@ -1,0 +1,13 @@
+/project/chriskim00/itahmida/TSMC28/ODOMETER/Genus/voltage_sensor_odometer_Genus/tcbn28hpcplusbwp30p140.v
+/project/chriskim01/chipfab/rare23/Genus/fullchip/core/odometer_normal_rvt/ROSC_ALL_RVT.v
+/project/chriskim01/chipfab/rare23/Genus/fullchip/core/odometer_normal_rvt/edge_detector.v
+/project/chriskim01/chipfab/rare23/Genus/fullchip/core/odometer_normal_rvt/odometer_full_rvt.v
+/project/chriskim01/chipfab/rare23/Genus/fullchip/core/odometer_normal_rvt/odometer_meas_detect.v
+/project/chriskim01/chipfab/rare23/Genus/fullchip/core/odometer_normal_rvt/odometer_top.v
+/project/chriskim01/chipfab/rare23/Genus/fullchip/core/odometer_normal_rvt/parallel_latch.v
+/project/chriskim01/chipfab/rare23/Genus/fullchip/core/odometer_normal_rvt/power_enable.v
+/project/chriskim01/chipfab/rare23/Genus/fullchip/core/odometer_normal_rvt/rosc_block_top_pwr_rvt_ref.v
+/project/chriskim01/chipfab/rare23/Genus/fullchip/core/odometer_normal_rvt/rosc_block_top_pwr_rvt_stress.v
+/project/chriskim01/chipfab/rare23/Genus/fullchip/core/odometer_normal_rvt/shift_sample_3b.v
+/project/chriskim01/chipfab/rare23/Genus/fullchip/core/odometer_normal_rvt/signal_ctrl.v
+/project/chriskim01/chipfab/rare23/Genus/fullchip/core/odometer_normal_rvt/testbench.v

@@ -1,0 +1,178 @@
+# Preference setting overrides
+gui_create_pref_key -category {Globals} -key {load_detail_for_funcov} -value_type {bool} -value {false}
+gui_set_pref_value -category {Source} -key {value_annotate} -value {true}
+gui_create_pref_category -category {schem_obj_name}
+gui_create_pref_key -category {schem_obj_name} -key {show_cell_and_pin_with_symbol_name} -value_type {bool} -value {false}
+gui_create_pref_key -category {schem_pin_hc} -key {textExtFont} -value_type {string} -value {Helvetica,10,-1,5,50,0,0,0,0,0}
+
+# State setting overrides
+gui_state_default_create -off -ini
+gui_set_state_value -category Globals -key recent_sessions -value {{gui_load_session -ignore_errors -file /project/chriskim01/chipfab/rare23/Genus/fullchip/core/odometer_normal_rvt/DVEfiles/dve_checkpoint_181908_1.tcl} {gui_load_session -ignore_errors -file /project/chriskim00/yhhong/QuICC/cobiriscvmini23/sim_rtl/riscv_debug.tcl -ignore_errors} {gui_load_session -ignore_errors -file /project/chriskim01/chipfab/cobifixedsixtyfive23/Genus/session_wbl.vpd.tcl} {gui_load_session -ignore_errors -file /project/chriskim01/chipfab/cobifixedsixtyfive23/Genus/DVEfiles/dve_checkpoint_27732_1.tcl}}
+gui_set_state_value -category Layout -key child_console_size_x -value 1210
+gui_set_state_value -category Layout -key child_console_size_y -value 140
+gui_set_state_value -category Layout -key child_data_coltype -value 121
+gui_set_state_value -category Layout -key child_data_colvalue -value 41
+gui_set_state_value -category Layout -key child_data_colvariable -value 310
+gui_set_state_value -category Layout -key child_data_size_x -value 480
+gui_set_state_value -category Layout -key child_data_size_y -value 332
+gui_set_state_value -category Layout -key child_driver_size_x -value 1623
+gui_set_state_value -category Layout -key child_driver_size_y -value 252
+gui_set_state_value -category Layout -key child_hier_col3 -value {-1}
+gui_set_state_value -category Layout -key child_hier_colhier -value 303
+gui_set_state_value -category Layout -key child_hier_colpd -value 0
+gui_set_state_value -category Layout -key child_hier_coltype -value 43
+gui_set_state_value -category Layout -key child_hier_size_x -value 354
+gui_set_state_value -category Layout -key child_hier_size_y -value 332
+gui_set_state_value -category Layout -key child_list_down -value 166
+gui_set_state_value -category Layout -key child_list_right -value 443
+gui_set_state_value -category Layout -key child_source_docknewline -value false
+gui_set_state_value -category Layout -key child_source_pos_x -value {-2}
+gui_set_state_value -category Layout -key child_source_pos_y -value {-15}
+gui_set_state_value -category Layout -key child_source_size_x -value 379
+gui_set_state_value -category Layout -key child_source_size_y -value 327
+gui_set_state_value -category Layout -key child_watch_dockstate -value undocked
+gui_set_state_value -category Layout -key child_watch_pos_x -value 1
+gui_set_state_value -category Layout -key child_watch_size_x -value 452
+gui_set_state_value -category Layout -key child_watch_size_y -value 307
+gui_set_state_value -category Layout -key child_wave_colname -value 138
+gui_set_state_value -category Layout -key child_wave_colvalue -value 138
+gui_set_state_value -category Layout -key child_wave_left -value 281
+gui_set_state_value -category Layout -key child_wave_right -value 684
+gui_set_state_value -category Layout -key main_pos_x -value 47
+gui_set_state_value -category Layout -key main_pos_y -value 150
+gui_set_state_value -category Layout -key main_size_x -value 1257
+gui_set_state_value -category Layout -key main_size_y -value 729
+gui_set_state_value -category Layout -key stand_list_child_docknewline -value false
+gui_set_state_value -category Layout -key stand_list_child_pos_x -value {-2}
+gui_set_state_value -category Layout -key stand_list_child_pos_y -value {-15}
+gui_set_state_value -category Layout -key stand_list_child_size_x -value 603
+gui_set_state_value -category Layout -key stand_list_child_size_y -value 311
+gui_set_state_value -category Layout -key stand_list_top_pos_y -value 102
+gui_set_state_value -category Layout -key stand_list_top_size_x -value 1098
+gui_set_state_value -category Layout -key stand_list_top_size_y -value 600
+gui_set_state_value -category Layout -key stand_schematic_child_docknewline -value false
+gui_set_state_value -category Layout -key stand_schematic_child_pos_x -value {-2}
+gui_set_state_value -category Layout -key stand_schematic_child_pos_y -value {-15}
+gui_set_state_value -category Layout -key stand_schematic_child_size_x -value 908
+gui_set_state_value -category Layout -key stand_schematic_child_size_y -value 527
+gui_set_state_value -category Layout -key stand_schematic_top_pos_x -value 305
+gui_set_state_value -category Layout -key stand_schematic_top_pos_y -value 305
+gui_set_state_value -category Layout -key stand_schematic_top_size_x -value 1208
+gui_set_state_value -category Layout -key stand_schematic_top_size_y -value 970
+gui_set_state_value -category Layout -key stand_wave_child_docknewline -value false
+gui_set_state_value -category Layout -key stand_wave_child_pos_x -value {-2}
+gui_set_state_value -category Layout -key stand_wave_child_pos_y -value {-15}
+gui_set_state_value -category Layout -key stand_wave_child_size_x -value 975
+gui_set_state_value -category Layout -key stand_wave_child_size_y -value 447
+gui_set_state_value -category Layout -key stand_wave_top_pos_x -value 335
+gui_set_state_value -category Layout -key stand_wave_top_pos_y -value 144
+gui_set_state_value -category Layout -key stand_wave_top_size_x -value 1305
+gui_set_state_value -category Layout -key stand_wave_top_size_y -value 729
+gui_create_state_key -category FindDialog -key m_pMatchCase -value_type bool -value false
+gui_create_state_key -category FindDialog -key m_pMatchWord -value_type bool -value false
+gui_create_state_key -category FindDialog -key m_pUseCombo -value_type string -value {}
+gui_create_state_key -category FindDialog -key m_pWrapAround -value_type bool -value true
+gui_create_state_key -category Widget_History -key TopLevel.1|qt_left_dock|DockWnd1|HSPane.1|pages|Hier.1|hbox|textfilter -value_type string -value {*4031* ** *4033* testbench_top.DUT.array.I396}
+gui_create_state_key -category Widget_History -key TopLevel.1|qt_left_dock|DockWnd2|DLPane.1|pages|Data.1|hbox|textfilter -value_type string -value {{H[7]} {H[0:7] V} net11* col_sel}
+gui_create_state_key -category Widget_History -key TopLevel.2|qt_left_dock|DockWnd3|HSPane.1|pages|Hier.1|hbox|textfilter -value_type string -value {*I636* *I640* *I639*}
+gui_create_state_key -category Widget_History -key {dlgSimSetup|m_setupTab|tab pages|BuildTab|m_rebuildBtnGroup|m_customCmdCombo} -value_type string -value {./.run_vcs_sch ./.run_vcs_reduced}
+gui_create_state_key -category Widget_History -key {dlgSimSetup|m_setupTab|tab pages|SimTab|m_VPDCombo} -value_type string -value inter.vpd
+gui_create_state_key -category Widget_History -key {dlgSimSetup|m_setupTab|tab pages|SimTab|m_argsCombo} -value_type string -value {{-ucligui } { -ucligui}}
+gui_create_state_key -category Widget_History -key {dlgSimSetup|m_setupTab|tab pages|SimTab|m_curDirCombo} -value_type string -value {/project/chriskim01/chipfab/rare23/Genus/fullchip/core/odometer_stacked /project/chriskim00/yhhong/QuICC/cobiriscvmini23/sim_rtl /project/chriskim01/chipfab/cobifixedsixtyfive23/Genus /project/chriskim01/chipfab/cobitx22/Genus}
+gui_create_state_key -category Widget_History -key {dlgSimSetup|m_setupTab|tab pages|SimTab|m_exeCombo} -value_type string -value {/project/chriskim01/chipfab/rare23/Genus/fullchip/core/odometer_stacked/simv ./simv /project/chriskim00/yhhong/QuICC/cobiriscvmini23/sim_rtl/simv /project/chriskim01/chipfab/cobifixedsixtyfive23/Genus/simv /project/chriskim01/chipfab/cobitx22/Genus/simv}
+gui_create_state_key -category SearchDialog -key MatchCase -value_type bool -value false
+gui_create_state_key -category SearchDialog -key MatchWord -value_type bool -value true
+gui_create_state_key -category SearchDialog -key SearchMode -value_type string -value Wildcards
+gui_create_state_key -category SearchDialog -key UseCombo -value_type bool -value true
+gui_state_default_create -off
+
+# Begin command logging
+gui_sim_run Ucli -exe ./simv -args {-ucligui  } -dir .
+gui_list_expand -id  Hier.1   testbench
+gui_list_select -id Hier.1 -current_item_name testbench.DUT2 -current_item_type Scope  -selected  { testbench.DUT2   }
+gui_list_select -id Data.1 -selected  { testbench.DUT2.RESETB   }
+gui_list_select -id Data.1 -selected  { testbench.DUT2.RESETB  testbench.DUT2.LOAD   }
+gui_list_select -id Data.1 -selected  { testbench.DUT2.RESETB  testbench.DUT2.LOAD  testbench.DUT2.EN_VCO   }
+gui_list_select -id Data.1 -selected  { testbench.DUT2.RESETB  testbench.DUT2.LOAD  testbench.DUT2.EN_VCO  testbench.DUT2.CLK_KILL   }
+gui_list_select -id Data.1 -selected  { testbench.DUT2.RESETB  testbench.DUT2.LOAD  testbench.DUT2.EN_VCO  testbench.DUT2.CLK_KILL  {testbench.DUT2.VCO_DIV_SEL[1:0]}   }
+gui_list_select -id Data.1 -selected  { testbench.DUT2.RESETB  testbench.DUT2.LOAD  testbench.DUT2.EN_VCO  testbench.DUT2.CLK_KILL  {testbench.DUT2.VCO_DIV_SEL[1:0]}  testbench.DUT2.PAD_OUT   }
+gui_list_select -id Data.1 -selected  { testbench.DUT2.RESETB  testbench.DUT2.LOAD  testbench.DUT2.EN_VCO  testbench.DUT2.CLK_KILL  {testbench.DUT2.VCO_DIV_SEL[1:0]}  testbench.DUT2.PAD_OUT  testbench.DUT2.AC_STRESS_CLK   }
+gui_list_select -id Data.1 -selected  { testbench.DUT2.RESETB  testbench.DUT2.LOAD  testbench.DUT2.EN_VCO  testbench.DUT2.CLK_KILL  {testbench.DUT2.VCO_DIV_SEL[1:0]}  testbench.DUT2.PAD_OUT  testbench.DUT2.AC_STRESS_CLK  testbench.DUT2.BEFORE_DIVIDER   }
+gui_open_window Wave
+gui_list_add -id Wave.1 -from Data.1 { testbench.DUT2.RESETB testbench.DUT2.LOAD testbench.DUT2.EN_VCO testbench.DUT2.CLK_KILL {testbench.DUT2.VCO_DIV_SEL[1:0]} testbench.DUT2.PAD_OUT testbench.DUT2.AC_STRESS_CLK testbench.DUT2.BEFORE_DIVIDER } -insertionbar
+gui_sim_continue  
+gui_marker_move -id  Wave.1 C1 200994934
+gui_zoom -window Wave.1 -full
+gui_wv_zoom_timerange -id  Wave.1 143784074 148021920
+gui_zoom -window Wave.1 -full
+gui_wv_zoom_timerange -id  Wave.1 0 7264880
+gui_zoom -window Wave.1 -full
+gui_update_design -all
+gui_sim_restart
+gui_set_pref_value -category {Source} -key {value_annotate} -value {false}
+gui_set_pref_value -category {Source} -key {value_annotate} -value {true}
+gui_sim_continue  
+gui_marker_move -id  Wave.1 C1 161643569
+gui_zoom -window Wave.1 -full
+gui_wv_zoom_timerange -id  Wave.1 0 9383803
+gui_list_select -id Data.1 -selected  { testbench.DUT2.FREQ_DIV_OUT   }
+gui_list_add -id Wave.1 -from Data.1 { testbench.DUT2.FREQ_DIV_OUT } -insertionbar
+gui_seek_next -id Wave.1 -number 1 
+gui_sim_restart
+gui_set_pref_value -category {Source} -key {value_annotate} -value {false}
+gui_set_pref_value -category {Source} -key {value_annotate} -value {true}
+gui_sim_continue  
+gui_marker_move -id  Wave.1 C1 200055896
+gui_zoom -window Wave.1 -full
+gui_list_expand -id  Hier.1   testbench.DUT2
+gui_list_select -id Hier.1 -current_item_name testbench.DUT2.freq_div_12b -current_item_type Scope  -selected  { testbench.DUT2.freq_div_12b   }
+gui_list_select -id Data.1 -selected  { {testbench.DUT2.freq_div_12b.DIV_OUT[11:0]}   }
+gui_list_add -id Wave.1 -from Data.1 { {testbench.DUT2.freq_div_12b.DIV_OUT[11:0]} } -insertionbar
+gui_sim_restart
+gui_set_pref_value -category {Source} -key {value_annotate} -value {false}
+gui_set_pref_value -category {Source} -key {value_annotate} -value {true}
+gui_sim_continue  
+gui_marker_move -id  Wave.1 C1 165276009
+gui_zoom -window Wave.1 -full
+gui_list_expand -id  Wave.1   {testbench.DUT2.freq_div_12b.DIV_OUT[11:0]}
+gui_update_design -all
+gui_sim_restart
+gui_set_pref_value -category {Source} -key {value_annotate} -value {false}
+gui_set_pref_value -category {Source} -key {value_annotate} -value {true}
+gui_sim_continue  
+gui_zoom -window Wave.1 -full
+gui_zoom -window Wave.1 -full
+gui_wv_zoom_timerange -id  Wave.1 0 109270459
+gui_wv_zoom_timerange -id  Wave.1 0 184034458
+gui_update_design -all
+gui_sim_restart
+gui_set_pref_value -category {Source} -key {value_annotate} -value {false}
+gui_set_pref_value -category {Source} -key {value_annotate} -value {true}
+gui_sim_continue  
+gui_zoom -window Wave.1 -full
+gui_list_select -id Wave.1 -selected  { testbench.DUT2.LOAD   }
+gui_update_design -all
+gui_sim_restart
+gui_set_pref_value -category {Source} -key {value_annotate} -value {false}
+gui_set_pref_value -category {Source} -key {value_annotate} -value {true}
+gui_sim_continue  
+gui_marker_move -id  Wave.1 C1 1233814687
+gui_zoom -window Wave.1 -full
+gui_wv_zoom_timerange -id  Wave.1 1209360411 1257819104
+gui_wv_zoom_timerange -id  Wave.1 1227806194 1231073967
+gui_update_design -all
+gui_sim_restart
+gui_set_pref_value -category {Source} -key {value_annotate} -value {false}
+gui_set_pref_value -category {Source} -key {value_annotate} -value {true}
+gui_sim_continue  
+gui_marker_move -id  Wave.1 C1 679653787
+gui_zoom -window Wave.1 -full
+gui_wv_zoom_timerange -id  Wave.1 623872064 644033100
+gui_zoom -window Wave.1 -full
+gui_wv_zoom_timerange -id  Wave.1 614911604 638432812
+gui_wv_zoom_timerange -id  Wave.1 625903987 626793770
+gui_list_collapse -id  Wave.1   {testbench.DUT2.freq_div_12b.DIV_OUT[11:0]}
+gui_list_select -id Wave.1 -selected  { testbench.DUT2.FREQ_DIV_OUT   }
+gui_delete_selected -id  Wave.1
+gui_list_select -id Wave.1 -selected  { {testbench.DUT2.freq_div_12b.DIV_OUT[11:0]}   }
+gui_close_window -window TopLevel.2

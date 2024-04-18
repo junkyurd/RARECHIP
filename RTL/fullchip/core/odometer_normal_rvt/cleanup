@@ -1,0 +1,2 @@
+rm -rf *.cmd*
+rm -rf *.log*

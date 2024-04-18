@@ -1,0 +1,133 @@
+Chronologic VCS simulator copyright 1991-2017
+Contains Synopsys proprietary information.
+Compiler version N-2017.12-1; Runtime version N-2017.12-1;  Nov  3 20:49 2023
+VCD+ Writer N-2017.12-1 Copyright (c) 1991-2017 by Synopsys Inc.
+The file '/project/chriskim01/chipfab/rare23/Genus/fullchip/core/odometer_stacked/inter.vpd' was opened successfully.
+$finish called from file "testbench.v", line 138.
+$finish at simulation time            271395000
+Simulation complete, time is 271395000 ps.
+No design was updated from VPD file.
+Chronologic VCS simulator copyright 1991-2017
+Contains Synopsys proprietary information.
+Compiler version N-2017.12-1; Runtime version N-2017.12-1;  Nov  3 20:56 2023
+VCD+ Writer N-2017.12-1 Copyright (c) 1991-2017 by Synopsys Inc.
+The file '/project/chriskim01/chipfab/rare23/Genus/fullchip/core/odometer_stacked/inter.vpd' was opened successfully.
+testbench.DUT1.odometer_top_odometer_meas_detect_inst.\BF_COUNTER_reg[0]  > Both CDN and SDN are enabled at time 82510.00ns.
+testbench.DUT1.odometer_top_odometer_meas_detect_inst.\BF_COUNTER_reg[1]  > Both CDN and SDN are enabled at time 82510.00ns.
+testbench.DUT1.odometer_top_odometer_meas_detect_inst.\BF_COUNTER_reg[2]  > Both CDN and SDN are enabled at time 82510.00ns.
+testbench.DUT1.odometer_top_odometer_meas_detect_inst.\BF_COUNTER_reg[3]  > Both CDN and SDN are enabled at time 82510.00ns.
+testbench.DUT1.odometer_top_odometer_meas_detect_inst.\BF_COUNTER_reg[4]  > Both CDN and SDN are enabled at time 82510.00ns.
+testbench.DUT1.odometer_top_odometer_meas_detect_inst.\BF_COUNTER_reg[5]  > Both CDN and SDN are enabled at time 82510.00ns.
+testbench.DUT1.odometer_top_odometer_meas_detect_inst.\BF_COUNTER_reg[6]  > Both CDN and SDN are enabled at time 82510.00ns.
+testbench.DUT1.odometer_top_odometer_meas_detect_inst.\BF_COUNTER_reg[7]  > Both CDN and SDN are enabled at time 82510.00ns.
+testbench.DUT1.odometer_top_odometer_meas_detect_inst.\BF_COUNTER_reg[8]  > Both CDN and SDN are enabled at time 82510.00ns.
+testbench.DUT1.odometer_top_odometer_meas_detect_inst.\BF_COUNTER_reg[9]  > Both CDN and SDN are enabled at time 82510.00ns.
+testbench.DUT1.odometer_top_odometer_meas_detect_inst.\BF_COUNTER_reg[10]  > Both CDN and SDN are enabled at time 82510.00ns.
+testbench.DUT1.odometer_top_odometer_meas_detect_inst.\BF_COUNTER_reg[11]  > Both CDN and SDN are enabled at time 82510.00ns.
+$finish called from file "testbench.v", line 138.
+$finish at simulation time            271395000
+Simulation complete, time is 271395000 ps.
+Chronologic VCS simulator copyright 1991-2017
+Contains Synopsys proprietary information.
+Compiler version N-2017.12-1; Runtime version N-2017.12-1;  Nov  3 20:58 2023
+VCD+ Writer N-2017.12-1 Copyright (c) 1991-2017 by Synopsys Inc.
+The file '/project/chriskim01/chipfab/rare23/Genus/fullchip/core/odometer_stacked/inter.vpd' was opened successfully.
+testbench.DUT1.odometer_top_odometer_meas_detect_inst.\BF_COUNTER_reg[0]  > Both CDN and SDN are enabled at time 82510.00ns.
+testbench.DUT1.odometer_top_odometer_meas_detect_inst.\BF_COUNTER_reg[1]  > Both CDN and SDN are enabled at time 82510.00ns.
+testbench.DUT1.odometer_top_odometer_meas_detect_inst.\BF_COUNTER_reg[2]  > Both CDN and SDN are enabled at time 82510.00ns.
+testbench.DUT1.odometer_top_odometer_meas_detect_inst.\BF_COUNTER_reg[3]  > Both CDN and SDN are enabled at time 82510.00ns.
+testbench.DUT1.odometer_top_odometer_meas_detect_inst.\BF_COUNTER_reg[4]  > Both CDN and SDN are enabled at time 82510.00ns.
+testbench.DUT1.odometer_top_odometer_meas_detect_inst.\BF_COUNTER_reg[5]  > Both CDN and SDN are enabled at time 82510.00ns.
+testbench.DUT1.odometer_top_odometer_meas_detect_inst.\BF_COUNTER_reg[6]  > Both CDN and SDN are enabled at time 82510.00ns.
+testbench.DUT1.odometer_top_odometer_meas_detect_inst.\BF_COUNTER_reg[7]  > Both CDN and SDN are enabled at time 82510.00ns.
+testbench.DUT1.odometer_top_odometer_meas_detect_inst.\BF_COUNTER_reg[8]  > Both CDN and SDN are enabled at time 82510.00ns.
+testbench.DUT1.odometer_top_odometer_meas_detect_inst.\BF_COUNTER_reg[9]  > Both CDN and SDN are enabled at time 82510.00ns.
+testbench.DUT1.odometer_top_odometer_meas_detect_inst.\BF_COUNTER_reg[10]  > Both CDN and SDN are enabled at time 82510.00ns.
+testbench.DUT1.odometer_top_odometer_meas_detect_inst.\BF_COUNTER_reg[11]  > Both CDN and SDN are enabled at time 82510.00ns.
+$finish called from file "testbench.v", line 138.
+$finish at simulation time            271395000
+Simulation complete, time is 271395000 ps.
+No design was updated from VPD file.
+With selected criteria, DVE has found 'results at time 246375000
+    testbench.DUT1.AC_STRESS_CLK
+    testbench.DUT1.rosc_stress.IN_INV97
+    testbench.DUT1.rosc_stress.IN_INV99
+    testbench.DUT1.rosc_stress.IN_INV101'.
+Chronologic VCS simulator copyright 1991-2017
+Contains Synopsys proprietary information.
+Compiler version N-2017.12-1; Runtime version N-2017.12-1;  Nov  3 20:59 2023
+VCD+ Writer N-2017.12-1 Copyright (c) 1991-2017 by Synopsys Inc.
+The file '/project/chriskim01/chipfab/rare23/Genus/fullchip/core/odometer_stacked/inter.vpd' was opened successfully.
+testbench.DUT1.odometer_top_odometer_meas_detect_inst.\BF_COUNTER_reg[0]  > Both CDN and SDN are enabled at time 82510.00ns.
+testbench.DUT1.odometer_top_odometer_meas_detect_inst.\BF_COUNTER_reg[1]  > Both CDN and SDN are enabled at time 82510.00ns.
+testbench.DUT1.odometer_top_odometer_meas_detect_inst.\BF_COUNTER_reg[2]  > Both CDN and SDN are enabled at time 82510.00ns.
+testbench.DUT1.odometer_top_odometer_meas_detect_inst.\BF_COUNTER_reg[3]  > Both CDN and SDN are enabled at time 82510.00ns.
+testbench.DUT1.odometer_top_odometer_meas_detect_inst.\BF_COUNTER_reg[4]  > Both CDN and SDN are enabled at time 82510.00ns.
+testbench.DUT1.odometer_top_odometer_meas_detect_inst.\BF_COUNTER_reg[5]  > Both CDN and SDN are enabled at time 82510.00ns.
+testbench.DUT1.odometer_top_odometer_meas_detect_inst.\BF_COUNTER_reg[6]  > Both CDN and SDN are enabled at time 82510.00ns.
+testbench.DUT1.odometer_top_odometer_meas_detect_inst.\BF_COUNTER_reg[7]  > Both CDN and SDN are enabled at time 82510.00ns.
+testbench.DUT1.odometer_top_odometer_meas_detect_inst.\BF_COUNTER_reg[8]  > Both CDN and SDN are enabled at time 82510.00ns.
+testbench.DUT1.odometer_top_odometer_meas_detect_inst.\BF_COUNTER_reg[9]  > Both CDN and SDN are enabled at time 82510.00ns.
+testbench.DUT1.odometer_top_odometer_meas_detect_inst.\BF_COUNTER_reg[10]  > Both CDN and SDN are enabled at time 82510.00ns.
+testbench.DUT1.odometer_top_odometer_meas_detect_inst.\BF_COUNTER_reg[11]  > Both CDN and SDN are enabled at time 82510.00ns.
+testbench.DUT1.odometer_top_odometer_meas_detect_inst.\BF_COUNTER_reg[0]  > Both CDN and SDN are enabled at time 208360.00ns.
+testbench.DUT1.odometer_top_odometer_meas_detect_inst.\BF_COUNTER_reg[1]  > Both CDN and SDN are enabled at time 208360.00ns.
+testbench.DUT1.odometer_top_odometer_meas_detect_inst.\BF_COUNTER_reg[2]  > Both CDN and SDN are enabled at time 208360.00ns.
+testbench.DUT1.odometer_top_odometer_meas_detect_inst.\BF_COUNTER_reg[3]  > Both CDN and SDN are enabled at time 208360.00ns.
+testbench.DUT1.odometer_top_odometer_meas_detect_inst.\BF_COUNTER_reg[4]  > Both CDN and SDN are enabled at time 208360.00ns.
+testbench.DUT1.odometer_top_odometer_meas_detect_inst.\BF_COUNTER_reg[5]  > Both CDN and SDN are enabled at time 208360.00ns.
+testbench.DUT1.odometer_top_odometer_meas_detect_inst.\BF_COUNTER_reg[6]  > Both CDN and SDN are enabled at time 208360.00ns.
+testbench.DUT1.odometer_top_odometer_meas_detect_inst.\BF_COUNTER_reg[7]  > Both CDN and SDN are enabled at time 208360.00ns.
+testbench.DUT1.odometer_top_odometer_meas_detect_inst.\BF_COUNTER_reg[8]  > Both CDN and SDN are enabled at time 208360.00ns.
+testbench.DUT1.odometer_top_odometer_meas_detect_inst.\BF_COUNTER_reg[9]  > Both CDN and SDN are enabled at time 208360.00ns.
+testbench.DUT1.odometer_top_odometer_meas_detect_inst.\BF_COUNTER_reg[10]  > Both CDN and SDN are enabled at time 208360.00ns.
+testbench.DUT1.odometer_top_odometer_meas_detect_inst.\BF_COUNTER_reg[11]  > Both CDN and SDN are enabled at time 208360.00ns.
+$finish called from file "testbench.v", line 138.
+$finish at simulation time            271395000
+Simulation complete, time is 271395000 ps.
+No design was updated from VPD file.
+Chronologic VCS simulator copyright 1991-2017
+Contains Synopsys proprietary information.
+Compiler version N-2017.12-1; Runtime version N-2017.12-1;  Nov  3 21:04 2023
+VCD+ Writer N-2017.12-1 Copyright (c) 1991-2017 by Synopsys Inc.
+The file '/project/chriskim01/chipfab/rare23/Genus/fullchip/core/odometer_stacked/inter.vpd' was opened successfully.
+testbench.DUT1.odometer_top_odometer_meas_detect_inst.\BF_COUNTER_reg[0]  > Both CDN and SDN are enabled at time 82510.00ns.
+testbench.DUT1.odometer_top_odometer_meas_detect_inst.\BF_COUNTER_reg[1]  > Both CDN and SDN are enabled at time 82510.00ns.
+testbench.DUT1.odometer_top_odometer_meas_detect_inst.\BF_COUNTER_reg[2]  > Both CDN and SDN are enabled at time 82510.00ns.
+testbench.DUT1.odometer_top_odometer_meas_detect_inst.\BF_COUNTER_reg[3]  > Both CDN and SDN are enabled at time 82510.00ns.
+testbench.DUT1.odometer_top_odometer_meas_detect_inst.\BF_COUNTER_reg[4]  > Both CDN and SDN are enabled at time 82510.00ns.
+testbench.DUT1.odometer_top_odometer_meas_detect_inst.\BF_COUNTER_reg[5]  > Both CDN and SDN are enabled at time 82510.00ns.
+testbench.DUT1.odometer_top_odometer_meas_detect_inst.\BF_COUNTER_reg[6]  > Both CDN and SDN are enabled at time 82510.00ns.
+testbench.DUT1.odometer_top_odometer_meas_detect_inst.\BF_COUNTER_reg[7]  > Both CDN and SDN are enabled at time 82510.00ns.
+testbench.DUT1.odometer_top_odometer_meas_detect_inst.\BF_COUNTER_reg[8]  > Both CDN and SDN are enabled at time 82510.00ns.
+testbench.DUT1.odometer_top_odometer_meas_detect_inst.\BF_COUNTER_reg[9]  > Both CDN and SDN are enabled at time 82510.00ns.
+testbench.DUT1.odometer_top_odometer_meas_detect_inst.\BF_COUNTER_reg[10]  > Both CDN and SDN are enabled at time 82510.00ns.
+testbench.DUT1.odometer_top_odometer_meas_detect_inst.\BF_COUNTER_reg[11]  > Both CDN and SDN are enabled at time 82510.00ns.
+$finish called from file "testbench.v", line 138.
+$finish at simulation time            271395000
+Simulation complete, time is 271395000 ps.
+No design was updated from VPD file.
+Chronologic VCS simulator copyright 1991-2017
+Contains Synopsys proprietary information.
+Compiler version N-2017.12-1; Runtime version N-2017.12-1;  Nov  3 21:06 2023
+VCD+ Writer N-2017.12-1 Copyright (c) 1991-2017 by Synopsys Inc.
+The file '/project/chriskim01/chipfab/rare23/Genus/fullchip/core/odometer_stacked/inter.vpd' was opened successfully.
+testbench.DUT1.odometer_top_odometer_meas_detect_inst.\BF_COUNTER_reg[0]  > Both CDN and SDN are enabled at time 82510.00ns.
+testbench.DUT1.odometer_top_odometer_meas_detect_inst.\BF_COUNTER_reg[1]  > Both CDN and SDN are enabled at time 82510.00ns.
+testbench.DUT1.odometer_top_odometer_meas_detect_inst.\BF_COUNTER_reg[2]  > Both CDN and SDN are enabled at time 82510.00ns.
+testbench.DUT1.odometer_top_odometer_meas_detect_inst.\BF_COUNTER_reg[3]  > Both CDN and SDN are enabled at time 82510.00ns.
+testbench.DUT1.odometer_top_odometer_meas_detect_inst.\BF_COUNTER_reg[4]  > Both CDN and SDN are enabled at time 82510.00ns.
+testbench.DUT1.odometer_top_odometer_meas_detect_inst.\BF_COUNTER_reg[5]  > Both CDN and SDN are enabled at time 82510.00ns.
+testbench.DUT1.odometer_top_odometer_meas_detect_inst.\BF_COUNTER_reg[6]  > Both CDN and SDN are enabled at time 82510.00ns.
+testbench.DUT1.odometer_top_odometer_meas_detect_inst.\BF_COUNTER_reg[7]  > Both CDN and SDN are enabled at time 82510.00ns.
+testbench.DUT1.odometer_top_odometer_meas_detect_inst.\BF_COUNTER_reg[8]  > Both CDN and SDN are enabled at time 82510.00ns.
+testbench.DUT1.odometer_top_odometer_meas_detect_inst.\BF_COUNTER_reg[9]  > Both CDN and SDN are enabled at time 82510.00ns.
+testbench.DUT1.odometer_top_odometer_meas_detect_inst.\BF_COUNTER_reg[10]  > Both CDN and SDN are enabled at time 82510.00ns.
+testbench.DUT1.odometer_top_odometer_meas_detect_inst.\BF_COUNTER_reg[11]  > Both CDN and SDN are enabled at time 82510.00ns.
+$finish called from file "testbench.v", line 138.
+$finish at simulation time            271395000
+Simulation complete, time is 271395000 ps.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 271395000 ps
+CPU Time:      1.010 seconds;       Data structure size:   1.5Mb
+Tue Nov  7 22:34:08 2023

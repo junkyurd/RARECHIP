@@ -1,0 +1,8 @@
+set_cpf_version 2.0
+
+
+#define the library sets
+define_library_set -name libset25C -libraries {
+    
+    
+    /project/chriskim07/PDKs/TSMC28nm/sclib/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn28hpcplusbwp30p140_180a/tcbn28hpcplusbwp30p140tt0p9v25c.lib /project/chriskim07/PDKs/TSMC28nm/sclib/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn28hpcplusbwp30p140_180a/tcbn28hpcplusbwp30p140tt0p9v0p9v25c.lib /project/chriskim07/PDKs/TSMC28nm/sclib/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn28hpcplusbwp30p140_180a/tcbn28hpcplusbwp30p140tt1v0p9v25c.lib /project/chriskim07/PDKs/TSMC28nm/sclib/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn28hpcplusbwp30p140_180a/tcbn28hpcplusbwp30p140tt0p9v1v25c.lib /project/chriskim01/chipfab/rare23/SRAM/ts1n28hpcpsvtb1024x32m4sw_180a/NLDM/ts1n28hpcpsvtb1024x32m4sw_180a_tt0p9v25c.lib /project/chriskim01/chipfab/rare23/SRAM/ts1n28hpcpsvtb2048x32m8sw_180a/NLDM/ts1n28hpcpsvtb2048x32m8sw_180a_tt0p9v25c.lib /project/chriskim01/chipfab/rare23/SRAM/ts1n28hpcpsvtb2048x32m4sw_180a/NLDM/ts1n28hpcpsvtb2048x32m4sw_180a_tt0p9v25c.lib}

@@ -1,0 +1,82 @@
+Cadence Genus(TM) Synthesis Solution.
+Copyright 2020 Cadence Design Systems, Inc. All rights reserved worldwide.
+Cadence and the Cadence logo are registered trademarks and Genus is a trademark
+of Cadence Design Systems, Inc. in the United States and other countries.
+
+Version: 19.15-s090_1, built Tue Sep 29 09:43:45 PDT 2020
+Options: 
+Date:    Mon Nov 06 01:18:05 2023
+Host:    cryo.ece.umn.edu (x86_64 w/Linux 3.10.0-1160.62.1.el7.x86_64) (8cores*32cpus*2physical cpus*Intel(R) Xeon(R) Gold 5217 CPU @ 3.00GHz 11264KB) (263582464KB)
+PID:     84061
+OS:      Red Hat Enterprise Linux Workstation release 7.9 (Maipo)
+
+Checking out license: Genus_Synthesis
+
+Loading tool scripts...
+
+Finished loading tool scripts (9 seconds elapsed).
+
+WARNING: This version of the tool is 1132 days old.
+@genus:root: 1> man addTieHiLo
+@genus:root: 2> help *tie*
+
+============================================================
+Commands:
+  add_tieoffs:          # replaces constants 1'b0 and 1'b1 with tie-cells
+
+
+============================================================
+Attributes:
+  ui_precision_sensitivities(root):
+                        # int, read/write, default=3, indices={}
+                        # Specifies the number of significant digits to be displayed for statistical sensitivity values and SOCV sigma values.
+  ignore_preserve_in_tiecell_insertion(root):
+                        # bool { 1 0 true false }, read/write, default=false, indices={}
+                        # Ignores all preserve setting while inserting tie-cells. 
+  use_tiehilo_for_const(root):
+                        # string, read/write, default=none, indices={}
+                        # Removes constants and replaces with TIEHI or TIELO cells.
+  iopt_allow_tiecell_with_inversion(root):
+                        # bool { 1 0 true false }, read/write, default=false, indices={}
+                        # Allow tiecell with inverter if one of the tie hi/lo cell is not found.
+  avoid_tied_inputs(root):
+                        # bool { 1 0 true false }, read/write, default=false, indices={}
+                        # Avoid creation of tied input pins of mapped gates in mapping if possible.
+  tied_to(base_pin):    # string, read-only, default=no_value, indices={}
+                        # The tied_to attribute value of library power or ground pin.
+  tied_to(pg_base_pin): # string, read-only, default=no_value, indices={}
+                        # The tied_to attribute value of library power or ground pin.
+  tied_to(lib_pin):     # string, read-only, default=no_value, indices={}
+                        # The tied_to attribute value of library power or ground pin.
+  tied_to(pg_lib_pin):  # string, read-only, default=no_value, indices={}
+                        # The tied_to attribute value of library power or ground pin.
+  iopt_avoid_tiecell_replacement(port):
+                        # bool { 1 0 true false }, read/write, default=false, indices={}
+                        # Avoids tie-cell replacement on pins, ports and subports. 
+  iopt_avoid_tiecell_replacement(hport):
+                        # bool { 1 0 true false }, read/write, default=false, indices={}
+                        # Avoids tie-cell replacement on pins, ports and subports. 
+  iopt_avoid_tiecell_replacement(pin):
+                        # bool { 1 0 true false }, read/write, default=false, indices={}
+                        # Avoids tie-cell replacement on pins, ports and subports. 
+  iopt_avoid_tiecell_replacement(hpin):
+                        # bool { 1 0 true false }, read/write, default=false, indices={}
+                        # Avoids tie-cell replacement on pins, ports and subports. 
+  properties(group):    # string, read-only, default={}, indices={}
+                        # Group properties.
+  properties(pcell):    # string, read-only, default={}, indices={}
+                        # Physical instance properties.
+  properties(bump):     # string, read-only, default={}, indices={}
+                        # Bump properties.
+  properties(region):   # string, read-only, default={}, indices={}
+                        # Region properties.
+  properties(specialnet):
+                        # string, read-only, default={}, indices={}
+                        # Specialnet properties.
+  properties(pnet):     # string, read-only, default={}, indices={}
+                        # Net properties.
+  properties(route_rule):
+                        # string, read-only, default={}, indices={}
+                        # Properties defined for non-default rule.
+@genus:root: 3> exit
+Normal exit.

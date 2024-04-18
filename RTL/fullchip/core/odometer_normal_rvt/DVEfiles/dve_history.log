@@ -1,0 +1,219 @@
+# Preference setting overrides
+gui_create_pref_key -category {Globals} -key {load_detail_for_funcov} -value_type {bool} -value {false}
+gui_set_pref_value -category {Source} -key {value_annotate} -value {true}
+gui_create_pref_category -category {schem_obj_name}
+gui_create_pref_key -category {schem_obj_name} -key {show_cell_and_pin_with_symbol_name} -value_type {bool} -value {false}
+gui_create_pref_key -category {schem_pin_hc} -key {textExtFont} -value_type {string} -value {Helvetica,10,-1,5,50,0,0,0,0,0}
+
+# State setting overrides
+gui_state_default_create -off -ini
+gui_set_state_value -category Globals -key recent_sessions -value {{gui_load_session -ignore_errors -file /project/chriskim01/chipfab/rare23/Genus/fullchip/core/odometer_normal_rvt/DVEfiles/dve_checkpoint_181908_1.tcl} {gui_load_session -ignore_errors -file /project/chriskim00/yhhong/QuICC/cobiriscvmini23/sim_rtl/riscv_debug.tcl -ignore_errors} {gui_load_session -ignore_errors -file /project/chriskim01/chipfab/cobifixedsixtyfive23/Genus/session_wbl.vpd.tcl} {gui_load_session -ignore_errors -file /project/chriskim01/chipfab/cobifixedsixtyfive23/Genus/DVEfiles/dve_checkpoint_27732_1.tcl}}
+gui_set_state_value -category Layout -key child_console_size_x -value 1212
+gui_set_state_value -category Layout -key child_console_size_y -value 142
+gui_set_state_value -category Layout -key child_data_coltype -value 121
+gui_set_state_value -category Layout -key child_data_colvalue -value 41
+gui_set_state_value -category Layout -key child_data_colvariable -value 310
+gui_set_state_value -category Layout -key child_data_size_x -value 482
+gui_set_state_value -category Layout -key child_data_size_y -value 332
+gui_set_state_value -category Layout -key child_driver_size_x -value 1623
+gui_set_state_value -category Layout -key child_driver_size_y -value 252
+gui_set_state_value -category Layout -key child_hier_col3 -value {-1}
+gui_set_state_value -category Layout -key child_hier_colhier -value 303
+gui_set_state_value -category Layout -key child_hier_colpd -value 0
+gui_set_state_value -category Layout -key child_hier_coltype -value 43
+gui_set_state_value -category Layout -key child_hier_size_x -value 356
+gui_set_state_value -category Layout -key child_hier_size_y -value 332
+gui_set_state_value -category Layout -key child_list_down -value 166
+gui_set_state_value -category Layout -key child_list_right -value 443
+gui_set_state_value -category Layout -key child_source_docknewline -value false
+gui_set_state_value -category Layout -key child_source_pos_x -value {-2}
+gui_set_state_value -category Layout -key child_source_pos_y -value {-15}
+gui_set_state_value -category Layout -key child_source_size_x -value 377
+gui_set_state_value -category Layout -key child_source_size_y -value 327
+gui_set_state_value -category Layout -key child_watch_dockstate -value undocked
+gui_set_state_value -category Layout -key child_watch_pos_x -value 1
+gui_set_state_value -category Layout -key child_watch_size_x -value 452
+gui_set_state_value -category Layout -key child_watch_size_y -value 307
+gui_set_state_value -category Layout -key child_wave_colname -value 219
+gui_set_state_value -category Layout -key child_wave_colvalue -value 58
+gui_set_state_value -category Layout -key child_wave_left -value 281
+gui_set_state_value -category Layout -key child_wave_right -value 685
+gui_set_state_value -category Layout -key main_pos_x -value 47
+gui_set_state_value -category Layout -key main_pos_y -value 148
+gui_set_state_value -category Layout -key main_size_x -value 1259
+gui_set_state_value -category Layout -key main_size_y -value 729
+gui_set_state_value -category Layout -key stand_list_child_docknewline -value false
+gui_set_state_value -category Layout -key stand_list_child_pos_x -value {-2}
+gui_set_state_value -category Layout -key stand_list_child_pos_y -value {-15}
+gui_set_state_value -category Layout -key stand_list_child_size_x -value 603
+gui_set_state_value -category Layout -key stand_list_child_size_y -value 311
+gui_set_state_value -category Layout -key stand_list_top_pos_y -value 102
+gui_set_state_value -category Layout -key stand_list_top_size_x -value 1098
+gui_set_state_value -category Layout -key stand_list_top_size_y -value 600
+gui_set_state_value -category Layout -key stand_schematic_child_docknewline -value false
+gui_set_state_value -category Layout -key stand_schematic_child_pos_x -value {-2}
+gui_set_state_value -category Layout -key stand_schematic_child_pos_y -value {-15}
+gui_set_state_value -category Layout -key stand_schematic_child_size_x -value 908
+gui_set_state_value -category Layout -key stand_schematic_child_size_y -value 527
+gui_set_state_value -category Layout -key stand_schematic_top_pos_x -value 305
+gui_set_state_value -category Layout -key stand_schematic_top_pos_y -value 305
+gui_set_state_value -category Layout -key stand_schematic_top_size_x -value 1208
+gui_set_state_value -category Layout -key stand_schematic_top_size_y -value 970
+gui_set_state_value -category Layout -key stand_wave_child_docknewline -value false
+gui_set_state_value -category Layout -key stand_wave_child_pos_x -value {-2}
+gui_set_state_value -category Layout -key stand_wave_child_pos_y -value {-15}
+gui_set_state_value -category Layout -key stand_wave_child_size_x -value 976
+gui_set_state_value -category Layout -key stand_wave_child_size_y -value 448
+gui_set_state_value -category Layout -key stand_wave_top_pos_x -value 335
+gui_set_state_value -category Layout -key stand_wave_top_pos_y -value 143
+gui_set_state_value -category Layout -key stand_wave_top_size_x -value 1306
+gui_set_state_value -category Layout -key stand_wave_top_size_y -value 729
+gui_create_state_key -category FindDialog -key m_pMatchCase -value_type bool -value false
+gui_create_state_key -category FindDialog -key m_pMatchWord -value_type bool -value false
+gui_create_state_key -category FindDialog -key m_pUseCombo -value_type string -value {}
+gui_create_state_key -category FindDialog -key m_pWrapAround -value_type bool -value true
+gui_create_state_key -category Widget_History -key TopLevel.1|qt_left_dock|DockWnd1|HSPane.1|pages|Hier.1|hbox|textfilter -value_type string -value {*4031* ** *4033* testbench_top.DUT.array.I396}
+gui_create_state_key -category Widget_History -key TopLevel.1|qt_left_dock|DockWnd2|DLPane.1|pages|Data.1|hbox|textfilter -value_type string -value {{H[7]} {H[0:7] V} net11* col_sel}
+gui_create_state_key -category Widget_History -key TopLevel.2|qt_left_dock|DockWnd3|HSPane.1|pages|Hier.1|hbox|textfilter -value_type string -value {*I636* *I640* *I639*}
+gui_create_state_key -category Widget_History -key {dlgSimSetup|m_setupTab|tab pages|BuildTab|m_rebuildBtnGroup|m_customCmdCombo} -value_type string -value {./.run_vcs_sch ./.run_vcs_reduced}
+gui_create_state_key -category Widget_History -key {dlgSimSetup|m_setupTab|tab pages|SimTab|m_VPDCombo} -value_type string -value inter.vpd
+gui_create_state_key -category Widget_History -key {dlgSimSetup|m_setupTab|tab pages|SimTab|m_argsCombo} -value_type string -value {{-ucligui } { -ucligui}}
+gui_create_state_key -category Widget_History -key {dlgSimSetup|m_setupTab|tab pages|SimTab|m_curDirCombo} -value_type string -value {/project/chriskim01/chipfab/rare23/Genus/fullchip/core/odometer_stacked /project/chriskim00/yhhong/QuICC/cobiriscvmini23/sim_rtl /project/chriskim01/chipfab/cobifixedsixtyfive23/Genus /project/chriskim01/chipfab/cobitx22/Genus}
+gui_create_state_key -category Widget_History -key {dlgSimSetup|m_setupTab|tab pages|SimTab|m_exeCombo} -value_type string -value {/project/chriskim01/chipfab/rare23/Genus/fullchip/core/odometer_stacked/simv ./simv /project/chriskim00/yhhong/QuICC/cobiriscvmini23/sim_rtl/simv /project/chriskim01/chipfab/cobifixedsixtyfive23/Genus/simv /project/chriskim01/chipfab/cobitx22/Genus/simv}
+gui_create_state_key -category SearchDialog -key MatchCase -value_type bool -value false
+gui_create_state_key -category SearchDialog -key MatchWord -value_type bool -value true
+gui_create_state_key -category SearchDialog -key SearchMode -value_type string -value Wildcards
+gui_create_state_key -category SearchDialog -key UseCombo -value_type bool -value true
+gui_state_default_create -off
+
+# Begin command logging
+gui_sim_run Ucli -exe ./simv -args {-ucligui  } -dir .
+gui_list_expand -id  Hier.1   testbench
+gui_list_select -id Hier.1 -current_item_name testbench.DUT1 -current_item_type Scope  -selected  { testbench.DUT1   }
+gui_list_select -id Data.1 -selected  { testbench.DUT1.AC_STRESS_CLK   }
+gui_list_select -id Data.1 -selected  { testbench.DUT1.AC_STRESS_CLK  testbench.DUT1.RESETB   }
+gui_list_select -id Data.1 -selected  { testbench.DUT1.AC_STRESS_CLK  testbench.DUT1.RESETB  testbench.DUT1.LOAD   }
+gui_list_select -id Data.1 -selected  { testbench.DUT1.AC_STRESS_CLK  testbench.DUT1.RESETB  testbench.DUT1.LOAD  testbench.DUT1.MEAS_TRIG   }
+gui_list_select -id Data.1 -selected  { testbench.DUT1.AC_STRESS_CLK  testbench.DUT1.RESETB  testbench.DUT1.LOAD  testbench.DUT1.MEAS_TRIG  testbench.DUT1.SEL_INV   }
+gui_list_select -id Data.1 -selected  { testbench.DUT1.AC_STRESS_CLK  testbench.DUT1.RESETB  testbench.DUT1.LOAD  testbench.DUT1.MEAS_TRIG  testbench.DUT1.SEL_INV  testbench.DUT1.SEL_NAND   }
+gui_list_select -id Data.1 -selected  { testbench.DUT1.AC_STRESS_CLK  testbench.DUT1.RESETB  testbench.DUT1.LOAD  testbench.DUT1.MEAS_TRIG  testbench.DUT1.SEL_INV  testbench.DUT1.SEL_NAND  testbench.DUT1.SEL_NOR   }
+gui_list_select -id Data.1 -selected  { testbench.DUT1.AC_STRESS_CLK  testbench.DUT1.RESETB  testbench.DUT1.LOAD  testbench.DUT1.MEAS_TRIG  testbench.DUT1.SEL_INV  testbench.DUT1.SEL_NAND  testbench.DUT1.SEL_NOR  testbench.DUT1.START   }
+gui_list_select -id Data.1 -selected  { testbench.DUT1.AC_STRESS_CLK  testbench.DUT1.RESETB  testbench.DUT1.LOAD  testbench.DUT1.MEAS_TRIG  testbench.DUT1.SEL_INV  testbench.DUT1.SEL_NAND  testbench.DUT1.SEL_NOR  testbench.DUT1.START  testbench.DUT1.AC_DC   }
+gui_list_select -id Data.1 -selected  { testbench.DUT1.AC_STRESS_CLK  testbench.DUT1.RESETB  testbench.DUT1.LOAD  testbench.DUT1.MEAS_TRIG  testbench.DUT1.SEL_INV  testbench.DUT1.SEL_NAND  testbench.DUT1.SEL_NOR  testbench.DUT1.START  testbench.DUT1.AC_DC  {testbench.DUT1.BF_COUNT[11:0]}   }
+gui_list_select -id Data.1 { testbench.DUT1.MEAS_STRESS   }
+gui_list_select -id Data.1 { testbench.DUT1.EN_ROSC   }
+gui_list_select -id Data.1 { testbench.DUT1.ROSC_STRESS_OUT   }
+gui_list_select -id Data.1 { testbench.DUT1.ROSC_REF_OUT   }
+gui_list_select -id Data.1 { testbench.DUT1.SEL_INV_LATCHED   }
+gui_list_select -id Data.1 { testbench.DUT1.SEL_NAND_LATCHED   }
+gui_list_select -id Data.1 { testbench.DUT1.SEL_NOR_LATCHED   }
+gui_list_select -id Data.1 { testbench.DUT1.START_LATCHED   }
+gui_list_select -id Data.1 { testbench.DUT1.AC_DC_LATCHED   }
+gui_open_window Wave
+gui_list_add -id Wave.1 -from Data.1 { testbench.DUT1.AC_STRESS_CLK testbench.DUT1.RESETB testbench.DUT1.LOAD testbench.DUT1.MEAS_TRIG testbench.DUT1.SEL_INV testbench.DUT1.SEL_NAND testbench.DUT1.SEL_NOR testbench.DUT1.START testbench.DUT1.AC_DC {testbench.DUT1.BF_COUNT[11:0]} testbench.DUT1.MEAS_STRESS testbench.DUT1.EN_ROSC testbench.DUT1.ROSC_STRESS_OUT testbench.DUT1.ROSC_REF_OUT testbench.DUT1.SEL_INV_LATCHED testbench.DUT1.SEL_NAND_LATCHED testbench.DUT1.SEL_NOR_LATCHED testbench.DUT1.START_LATCHED testbench.DUT1.AC_DC_LATCHED } -insertionbar
+gui_list_expand -id  Hier.1   testbench.DUT1
+gui_list_select -id Hier.1 -current_item_name testbench.DUT1.odometer_top -current_item_type Scope  -selected  { testbench.DUT1.odometer_top   }
+gui_list_select -id Data.1 -selected  { testbench.DUT1.odometer_top.MEAS_DONE   }
+gui_list_select -id Data.1 -selected  { testbench.DUT1.odometer_top.MEAS_DONE  testbench.DUT1.odometer_top.DETECT   }
+gui_list_select -id Data.1 -selected  { testbench.DUT1.odometer_top.MEAS_DONE  testbench.DUT1.odometer_top.DETECT  testbench.DUT1.odometer_top.PC_OUT   }
+gui_list_add -id Wave.1 -from Data.1 { testbench.DUT1.odometer_top.MEAS_DONE testbench.DUT1.odometer_top.DETECT testbench.DUT1.odometer_top.PC_OUT } -insertionbar
+gui_sim_continue  
+gui_marker_move -id  Wave.1 C1 151519931
+gui_zoom -window Wave.1 -full
+gui_wv_zoom_timerange -id  Wave.1 94700000 98579277
+gui_wv_zoom_timerange -id  Wave.1 94697592 97910849
+gui_list_select -id Hier.1 -current_item_name testbench.DUT1.rosc_ref -current_item_type Scope  -selected  { testbench.DUT1.rosc_ref   }
+gui_list_select -id Data.1 -selected  { testbench.DUT1.rosc_ref.IN_INV   }
+gui_list_select -id Data.1 -selected  { testbench.DUT1.rosc_ref.IN_INV  testbench.DUT1.rosc_ref.IN_NAND  testbench.DUT1.rosc_ref.IN_NOR  testbench.DUT1.rosc_ref.MOD_VDD_INV  testbench.DUT1.rosc_ref.MOD_VDD_NAND  testbench.DUT1.rosc_ref.MOD_VDD_NOR  testbench.DUT1.rosc_ref.OUT_INV  testbench.DUT1.rosc_ref.OUT_NAND  testbench.DUT1.rosc_ref.OUT_NOR   }
+gui_list_add -id Wave.1 -from Data.1 { testbench.DUT1.rosc_ref.IN_INV testbench.DUT1.rosc_ref.IN_NAND testbench.DUT1.rosc_ref.IN_NOR testbench.DUT1.rosc_ref.MOD_VDD_INV testbench.DUT1.rosc_ref.MOD_VDD_NAND testbench.DUT1.rosc_ref.MOD_VDD_NOR testbench.DUT1.rosc_ref.OUT_INV testbench.DUT1.rosc_ref.OUT_NAND testbench.DUT1.rosc_ref.OUT_NOR } -insertionbar
+gui_list_select -id Hier.1 -current_item_name testbench.DUT1.rosc_stress -current_item_type Scope  -selected  { testbench.DUT1.rosc_stress   }
+gui_list_select -id Data.1 -selected  { testbench.DUT1.rosc_stress.IN_INV   }
+gui_list_select -id Data.1 -selected  { testbench.DUT1.rosc_stress.IN_INV  testbench.DUT1.rosc_stress.IN_NAND  testbench.DUT1.rosc_stress.IN_NOR  testbench.DUT1.rosc_stress.MOD_VDD_INV  testbench.DUT1.rosc_stress.MOD_VDD_NAND  testbench.DUT1.rosc_stress.MOD_VDD_NOR  testbench.DUT1.rosc_stress.OUT_INV  testbench.DUT1.rosc_stress.OUT_NAND  testbench.DUT1.rosc_stress.OUT_NOR   }
+gui_list_add -id Wave.1 -from Data.1 { testbench.DUT1.rosc_stress.IN_INV testbench.DUT1.rosc_stress.IN_NAND testbench.DUT1.rosc_stress.IN_NOR testbench.DUT1.rosc_stress.MOD_VDD_INV testbench.DUT1.rosc_stress.MOD_VDD_NAND testbench.DUT1.rosc_stress.MOD_VDD_NOR testbench.DUT1.rosc_stress.OUT_INV testbench.DUT1.rosc_stress.OUT_NAND testbench.DUT1.rosc_stress.OUT_NOR } -insertionbar
+gui_sim_restart
+gui_set_pref_value -category {Source} -key {value_annotate} -value {false}
+gui_set_pref_value -category {Source} -key {value_annotate} -value {true}
+gui_sim_continue  
+gui_marker_move -id  Wave.1 C1 150806914
+gui_zoom -window Wave.1 -full
+gui_wv_zoom_timerange -id  Wave.1 92840436 100829673
+gui_wv_zoom_timerange -id  Wave.1 95289809 98616236
+gui_wv_zoom_timerange -id  Wave.1 96188173 96339374
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_update_design -all
+gui_update_design -all
+gui_sim_restart
+gui_set_pref_value -category {Source} -key {value_annotate} -value {false}
+gui_set_pref_value -category {Source} -key {value_annotate} -value {true}
+gui_sim_continue  
+gui_marker_move -id  Wave.1 C1 151281498
+gui_zoom -window Wave.1 -full
+gui_wv_zoom_timerange -id  Wave.1 94768873 100554182
+gui_wv_zoom_timerange -id  Wave.1 96172873 97529791
+gui_zoom -window Wave.1 -full
+gui_zoom -window Wave.1 -full
+gui_wv_zoom_timerange -id  Wave.1 0 6060800
+gui_zoom -window Wave.1 -full
+gui_list_select -id Hier.1 -current_item_name testbench.DUT1.odometer_top -current_item_type Scope  -selected  { testbench.DUT1.odometer_top   }
+gui_list_expand -id  Hier.1   testbench.DUT1.odometer_top
+gui_list_select -id Hier.1 -current_item_name testbench.DUT1.odometer_top.odometer_meas_detect_inst -current_item_type Scope  -selected  { testbench.DUT1.odometer_top.odometer_meas_detect_inst   }
+gui_list_select -id Data.1 -selected  { {testbench.DUT1.odometer_top.odometer_meas_detect_inst.DEADZONE_ESCAPE_COUNTER[12:0]}   }
+gui_list_add -id Wave.1 -from Data.1 { {testbench.DUT1.odometer_top.odometer_meas_detect_inst.DEADZONE_ESCAPE_COUNTER[12:0]} } -insertionbar
+gui_zoom -window Wave.1 -full
+gui_sim_restart
+gui_set_pref_value -category {Source} -key {value_annotate} -value {false}
+gui_set_pref_value -category {Source} -key {value_annotate} -value {true}
+gui_sim_continue  
+gui_marker_move -id  Wave.1 C1 120114036
+gui_zoom -window Wave.1 -full
+gui_wv_zoom_timerange -id  Wave.1 0 6060800
+gui_wv_zoom_timerange -id  Wave.1 727296 980748
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_wv_zoom_timerange -id  Wave.1 781554 899524
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -full
+gui_wv_zoom_timerange -id  Wave.1 92840436 100554182
+gui_list_select -id Wave.1 -selected  { testbench.DUT1.AC_DC   }
+gui_zoom -window Wave.1 -full
+gui_wv_zoom_timerange -id  Wave.1 0 6887273
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_wv_zoom_timerange -id  Wave.1 72529236 89759938
+gui_list_select -id Wave.1 -selected  { {testbench.DUT1.BF_COUNT[11:0]}   }
+gui_list_select -id Wave.1 -selected  { testbench.DUT1.ROSC_STRESS_OUT   }
+gui_list_select -id Wave.1 -selected  { testbench.DUT1.ROSC_REF_OUT   }
+gui_list_select -id Wave.1 -selected  { testbench.DUT1.ROSC_STRESS_OUT   }
+gui_list_select -id Wave.1 -selected  { testbench.DUT1.ROSC_REF_OUT   }
+gui_list_select -id Wave.1 -selected  { {testbench.DUT1.BF_COUNT[11:0]}   }
+gui_zoom -window Wave.1 -full
+gui_zoom -window Wave.1 -full
+gui_list_select -id Wave.1 -selected  { testbench.DUT1.MEAS_TRIG   }
+gui_marker_move -id  Wave.1 C1 89810036
+gui_marker_move -id  Wave.1 C1 87881600
+gui_wv_zoom_timerange -id  Wave.1 93942400 100829673
+gui_list_select -id Wave.1 -selected  { testbench.DUT1.odometer_top.MEAS_DONE   }
+gui_list_select -id Wave.1 -selected  { testbench.DUT1.MEAS_TRIG   }
+gui_close_window -window TopLevel.1
